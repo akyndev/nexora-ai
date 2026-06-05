@@ -129,13 +129,13 @@ function SectionHeading({
         align === "center" && "mx-auto text-center"
       )}
     >
-      <p className="text-sm font-semibold uppercase text-cyan-700">
+      <p className="text-sm font-semibold uppercase text-cyan-200">
         {eyebrow}
       </p>
-      <h2 className="mt-3 text-3xl font-semibold leading-tight text-[#102022] sm:text-4xl">
+      <h2 className="mt-3 text-3xl font-semibold leading-tight text-white sm:text-4xl">
         {title}
       </h2>
-      <p className="mt-4 text-base leading-7 text-[#526464] sm:text-lg">
+      <p className="mt-4 text-base leading-7 text-white/64 sm:text-lg">
         {copy}
       </p>
     </div>
@@ -149,7 +149,7 @@ export default function Home() {
         <section className="relative isolate flex min-h-[88dvh] flex-col">
           <AnimatedGridPattern className="opacity-90" />
           <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_16%_20%,rgba(54,211,153,.22),transparent_30%),radial-gradient(circle_at_82%_16%,rgba(34,211,238,.22),transparent_28%),linear-gradient(135deg,#061016_0%,#0a1b1d_45%,#101013_100%)]" />
-          <div className="absolute inset-x-0 bottom-0 -z-10 h-44 bg-gradient-to-t from-[#f8fbf8] to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 -z-10 h-44 bg-gradient-to-t from-[#061016] to-transparent" />
 
           <nav className="mx-auto flex w-full max-w-7xl items-center justify-between px-5 py-5 sm:px-8">
             <a href="#" className="flex min-h-11 items-center gap-3">
@@ -185,14 +185,14 @@ export default function Home() {
 
           <div className="mx-auto grid w-full max-w-7xl flex-1 items-center gap-12 px-5 pb-12 pt-4 sm:px-8 lg:grid-cols-[1.02fr_.98fr] lg:pb-14">
             <div className="max-w-3xl">
-              <div className="mb-6 inline-flex min-h-11 items-center gap-2 rounded-lg border border-emerald-200/22 bg-emerald-100/10 px-3 text-sm font-medium text-emerald-100 shadow-[0_0_34px_rgba(16,185,129,.12)] backdrop-blur">
-                <Zap className="size-4 text-amber-200" aria-hidden="true" />
+              <div className="mb-6 inline-flex min-h-11 items-center gap-2 rounded-lg border border-cyan-200/22 bg-cyan-100/10 px-3 text-sm font-medium text-cyan-100 shadow-[0_0_34px_rgba(16,185,129,.12)] backdrop-blur">
+                <Zap className="size-4 text-cyan-200" aria-hidden="true" />
                 Autonomous AI operations for ambitious teams
               </div>
 
               <h1 className="max-w-4xl text-5xl font-semibold leading-[1.02] text-white sm:text-6xl xl:text-7xl">
                 Nexora AI
-                <span className="block bg-gradient-to-r from-cyan-100 via-emerald-100 to-amber-100 bg-clip-text text-transparent">
+                <span className="block bg-gradient-to-r from-cyan-100 via-cyan-200 to-teal-100 bg-clip-text text-transparent">
                   intelligence that moves with you.
                 </span>
               </h1>
@@ -244,14 +244,14 @@ export default function Home() {
 
             <div className="relative min-h-[32rem] lg:min-h-[38rem]">
               <div className="nexora-orbit absolute left-1/2 top-1/2 size-[22rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-200/18 sm:size-[30rem]" />
-              <div className="nexora-orbit-reverse absolute left-1/2 top-1/2 size-[16rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-emerald-200/18 sm:size-[22rem]" />
+              <div className="nexora-orbit-reverse absolute left-1/2 top-1/2 size-[16rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-200/18 sm:size-[22rem]" />
 
               <div className="relative mx-auto w-full max-w-[34rem] rounded-lg border border-white/16 bg-[#071318]/82 p-3 shadow-2xl shadow-cyan-950/40 backdrop-blur-xl">
                 <div className="flex items-center justify-between border-b border-white/10 px-2 pb-3">
                   <div className="flex items-center gap-2">
                     <span className="size-3 rounded-full bg-rose-300" />
-                    <span className="size-3 rounded-full bg-amber-200" />
-                    <span className="size-3 rounded-full bg-emerald-300" />
+                    <span className="size-3 rounded-full bg-cyan-200" />
+                    <span className="size-3 rounded-full bg-cyan-300" />
                   </div>
                   <span className="text-xs font-medium text-white/50">
                     nexora.ai/live
@@ -296,7 +296,7 @@ export default function Home() {
                           Customer success expansion
                         </p>
                       </div>
-                      <span className="rounded-md bg-emerald-300/14 px-2 py-1 text-xs font-medium text-emerald-100">
+                      <span className="rounded-md bg-cyan-300/14 px-2 py-1 text-xs font-medium text-cyan-100">
                         Ready
                       </span>
                     </div>
@@ -304,8 +304,8 @@ export default function Home() {
                     <div className="space-y-3">
                       {[
                         ["Analyze renewal risk", "w-[86%]", "text-cyan-200"],
-                        ["Draft outreach sequence", "w-[72%]", "text-amber-100"],
-                        ["Route approvals", "w-[58%]", "text-emerald-100"],
+                        ["Draft outreach sequence", "w-[72%]", "text-cyan-100"],
+                        ["Route approvals", "w-[58%]", "text-cyan-100"],
                       ].map(([label, width, color]) => (
                         <div key={label}>
                           <div className="mb-2 flex items-center justify-between text-xs">
@@ -317,7 +317,7 @@ export default function Home() {
                           </div>
                           <div className="h-2 overflow-hidden rounded-full bg-white/10">
                             <div
-                              className={`${width} h-full rounded-full bg-gradient-to-r from-cyan-200 via-emerald-200 to-amber-100`}
+                              className={`${width} h-full rounded-full bg-gradient-to-r from-cyan-300 via-cyan-200 to-teal-100`}
                             />
                           </div>
                         </div>
@@ -337,7 +337,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="absolute -right-2 top-10 hidden rounded-lg border border-amber-100/20 bg-amber-100/10 px-4 py-3 text-sm text-amber-50 shadow-xl shadow-black/20 backdrop-blur md:block">
+              <div className="absolute -right-2 top-10 hidden rounded-lg border border-cyan-100/20 bg-cyan-200/10 px-4 py-3 text-sm text-cyan-50 shadow-xl shadow-black/20 backdrop-blur md:block">
                 Model confidence: 94%
               </div>
               <div className="absolute -left-3 bottom-16 hidden rounded-lg border border-cyan-100/20 bg-cyan-100/10 px-4 py-3 text-sm text-cyan-50 shadow-xl shadow-black/20 backdrop-blur md:block">
@@ -347,13 +347,13 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-[#f8fbf8] px-5 py-8 text-[#102022] sm:px-8">
-          <div className="mx-auto flex max-w-7xl flex-col gap-4 border-y border-[#d9e4df] py-6 sm:flex-row sm:items-center sm:justify-between">
-            <p className="max-w-xl text-sm font-medium uppercase text-[#6b7f7b]">
+        <section className="bg-[#071318] px-5 py-8 text-white sm:px-8">
+          <div className="mx-auto flex max-w-7xl flex-col gap-4 border-y border-white/10 py-6 sm:flex-row sm:items-center sm:justify-between">
+            <p className="max-w-xl text-sm font-medium uppercase text-white/52">
               Built for teams replacing scattered AI experiments with one
               operating system
             </p>
-            <div className="grid grid-cols-2 gap-x-6 gap-y-3 text-sm font-semibold text-[#102022] sm:flex sm:flex-wrap sm:justify-end">
+            <div className="grid grid-cols-2 gap-x-6 gap-y-3 text-sm font-semibold text-white sm:flex sm:flex-wrap sm:justify-end">
               {integrations.slice(0, 6).map((name) => (
                 <span key={name}>{name}</span>
               ))}
@@ -363,7 +363,7 @@ export default function Home() {
 
         <section
           id="platform"
-          className="bg-[#f8fbf8] px-5 py-20 text-[#102022] sm:px-8"
+          className="bg-[#071318] px-5 py-20 text-white sm:px-8"
         >
           <div className="mx-auto max-w-7xl">
             <SectionHeading
@@ -375,13 +375,13 @@ export default function Home() {
               {platformFeatures.map(({ icon: Icon, title, copy }) => (
                 <article
                   key={title}
-                  className="rounded-lg border border-[#d9e4df] bg-white p-6 shadow-sm shadow-[#d9e4df]/40"
+                  className="rounded-lg border border-white/10 bg-white/[.04] p-6 shadow-sm shadow-black/20"
                 >
-                  <div className="grid size-11 place-items-center rounded-lg bg-[#e6fbf8] text-cyan-700">
+                  <div className="grid size-11 place-items-center rounded-lg bg-cyan-200/10 text-cyan-200">
                     <Icon className="size-5" aria-hidden="true" />
                   </div>
                   <h3 className="mt-5 text-xl font-semibold">{title}</h3>
-                  <p className="mt-3 text-sm leading-6 text-[#526464]">
+                  <p className="mt-3 text-sm leading-6 text-white/64">
                     {copy}
                   </p>
                 </article>
@@ -390,10 +390,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-[#102022] px-5 py-20 text-white sm:px-8">
+        <section className="bg-[#061016] px-5 py-20 text-white sm:px-8">
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[.9fr_1.1fr] lg:items-center">
             <div>
-              <p className="text-sm font-semibold uppercase text-amber-100">
+              <p className="text-sm font-semibold uppercase text-cyan-100">
                 Agent workflow
               </p>
               <h2 className="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">
@@ -409,7 +409,7 @@ export default function Home() {
                   href="#demo"
                   className={cn(
                     buttonVariants({ size: "lg" }),
-                    "h-12 bg-amber-100 px-5 text-[#102022] hover:bg-amber-50"
+                    "h-12 bg-cyan-200 px-5 text-[#061016] hover:bg-cyan-100"
                   )}
                 >
                   See the workflow
@@ -434,7 +434,7 @@ export default function Home() {
 
         <section
           id="signals"
-          className="bg-[#f8fbf8] px-5 py-20 text-[#102022] sm:px-8"
+          className="bg-[#071318] px-5 py-20 text-white sm:px-8"
         >
           <div className="mx-auto max-w-7xl">
             <SectionHeading
@@ -447,11 +447,11 @@ export default function Home() {
               {signalCards.map(({ icon: Icon, title, copy }) => (
                 <article
                   key={title}
-                  className="rounded-lg border border-[#d9e4df] bg-white p-5"
+                  className="rounded-lg border border-white/10 bg-white/[.04] p-5"
                 >
-                  <Icon className="size-5 text-emerald-700" aria-hidden="true" />
+                  <Icon className="size-5 text-cyan-200" aria-hidden="true" />
                   <h3 className="mt-5 text-lg font-semibold">{title}</h3>
-                  <p className="mt-3 text-sm leading-6 text-[#526464]">
+                  <p className="mt-3 text-sm leading-6 text-white/64">
                     {copy}
                   </p>
                 </article>
@@ -460,10 +460,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-[#eaf3ef] px-5 py-20 text-[#102022] sm:px-8">
+        <section className="bg-[#061016] px-5 py-20 text-white sm:px-8">
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.1fr_.9fr] lg:items-center">
-            <div className="rounded-lg border border-[#c8dbd6] bg-white p-4 shadow-sm">
-              <div className="rounded-md bg-[#102022] p-4 text-white">
+            <div className="rounded-lg border border-white/14 bg-white/[.04] p-4 shadow-sm">
+              <div className="rounded-md bg-[#061016] p-4 text-white">
                 <div className="flex items-center justify-between border-b border-white/10 pb-4">
                   <div className="flex items-center gap-3">
                     <div className="grid size-10 place-items-center rounded-lg bg-cyan-200/12 text-cyan-100">
@@ -476,7 +476,7 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                  <span className="rounded-md bg-emerald-300/14 px-2 py-1 text-xs text-emerald-100">
+                  <span className="rounded-md bg-cyan-300/14 px-2 py-1 text-xs text-cyan-100">
                     Healthy
                   </span>
                 </div>
@@ -487,7 +487,7 @@ export default function Home() {
                     [Timer, "Hours saved", "3,980"],
                   ].map(([Icon, label, value]) => (
                     <div key={label as string} className="rounded-md bg-white/[.05] p-4">
-                      <Icon className="size-5 text-amber-100" aria-hidden="true" />
+                      <Icon className="size-5 text-cyan-100" aria-hidden="true" />
                       <p className="mt-5 text-2xl font-semibold">
                         {value as string}
                       </p>
@@ -503,7 +503,7 @@ export default function Home() {
                     <span className="font-medium text-cyan-100">72%</span>
                   </div>
                   <div className="h-2 rounded-full bg-white/10">
-                    <div className="h-full w-[72%] rounded-full bg-gradient-to-r from-cyan-200 via-emerald-200 to-amber-100" />
+                    <div className="h-full w-[72%] rounded-full bg-gradient-to-r from-cyan-300 via-cyan-200 to-teal-100" />
                   </div>
                 </div>
               </div>
@@ -521,7 +521,7 @@ export default function Home() {
                   "Outcome tracking for every AI-assisted action",
                 ].map((item) => (
                   <div key={item} className="flex items-center gap-3 text-sm">
-                    <BadgeCheck className="size-5 text-emerald-700" aria-hidden="true" />
+                    <BadgeCheck className="size-5 text-cyan-200" aria-hidden="true" />
                     <span>{item}</span>
                   </div>
                 ))}
@@ -532,7 +532,7 @@ export default function Home() {
 
         <section
           id="security"
-          className="bg-[#f8fbf8] px-5 py-20 text-[#102022] sm:px-8"
+          className="bg-[#071318] px-5 py-20 text-white sm:px-8"
         >
           <div className="mx-auto max-w-7xl">
             <SectionHeading
@@ -545,13 +545,13 @@ export default function Home() {
               {securityItems.map(({ icon: Icon, title, copy }) => (
                 <article
                   key={title}
-                  className="rounded-lg border border-[#d9e4df] bg-white p-6"
+                  className="rounded-lg border border-white/10 bg-white/[.04] p-6"
                 >
-                  <div className="grid size-11 place-items-center rounded-lg bg-[#fff4d7] text-amber-700">
+                  <div className="grid size-11 place-items-center rounded-lg bg-cyan-200/10 text-cyan-100">
                     <Icon className="size-5" aria-hidden="true" />
                   </div>
                   <h3 className="mt-5 text-xl font-semibold">{title}</h3>
-                  <p className="mt-3 text-sm leading-6 text-[#526464]">
+                  <p className="mt-3 text-sm leading-6 text-white/64">
                     {copy}
                   </p>
                 </article>
@@ -562,7 +562,7 @@ export default function Home() {
 
         <section
           id="pricing"
-          className="bg-[#102022] px-5 py-20 text-white sm:px-8"
+          className="bg-[#061016] px-5 py-20 text-white sm:px-8"
         >
           <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[.9fr_1.1fr] lg:items-stretch">
             <div>
@@ -600,7 +600,7 @@ export default function Home() {
                       "Approval policies",
                     ].map((item) => (
                       <div key={item} className="flex items-center gap-3">
-                        <CheckCircle2 className="size-4 text-emerald-200" aria-hidden="true" />
+                        <CheckCircle2 className="size-4 text-cyan-200" aria-hidden="true" />
                         <span>{item}</span>
                       </div>
                     ))}
@@ -613,17 +613,17 @@ export default function Home() {
 
         <section
           id="demo"
-          className="relative isolate bg-[#f8fbf8] px-5 py-20 text-[#102022] sm:px-8"
+          className="relative isolate bg-[#071318] px-5 py-20 text-white sm:px-8"
         >
-          <div className="absolute inset-x-0 top-0 -z-10 h-32 bg-gradient-to-b from-[#102022] to-transparent opacity-10" />
+          <div className="absolute inset-x-0 top-0 -z-10 h-32 bg-gradient-to-b from-[#061016] to-transparent" />
           <div className="mx-auto max-w-4xl text-center">
-            <div className="mx-auto grid size-12 place-items-center rounded-lg bg-[#102022] text-cyan-100">
+            <div className="mx-auto grid size-12 place-items-center rounded-lg bg-cyan-200/10 text-cyan-100">
               <Sparkles className="size-6" aria-hidden="true" />
             </div>
             <h2 className="mt-6 text-3xl font-semibold leading-tight sm:text-5xl">
               Bring Nexora AI into your next operating rhythm.
             </h2>
-            <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-[#526464] sm:text-lg">
+            <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-white/64 sm:text-lg">
               Connect a team, choose one high-value workflow, and see how an AI
               command layer changes planning, execution, and follow-through.
             </p>
@@ -632,7 +632,7 @@ export default function Home() {
                 href="mailto:hello@nexora.ai"
                 className={cn(
                   buttonVariants({ size: "lg" }),
-                  "h-12 bg-[#102022] px-5 text-white hover:bg-[#1b3538]"
+                  "h-12 bg-cyan-200 px-5 text-[#061016] hover:bg-cyan-100"
                 )}
               >
                 <Mail className="size-4" aria-hidden="true" />
@@ -642,7 +642,7 @@ export default function Home() {
                 href="#platform"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "lg" }),
-                  "h-12 border-[#c8dbd6] bg-white px-5 text-[#102022] hover:bg-[#eef6f3]"
+                  "h-12 border-white/14 bg-white/5 px-5 text-white hover:bg-white/10 hover:text-white"
                 )}
               >
                 Explore platform
