@@ -1,0 +1,293 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - main [ref=e3]:
+      - generic [ref=e4]:
+        - navigation [ref=e7]:
+          - link "Nexora AI" [ref=e8] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e10]
+            - generic [ref=e13]: Nexora AI
+          - generic [ref=e14]:
+            - link "Platform" [ref=e15] [cursor=pointer]:
+              - /url: "#platform"
+            - link "Signals" [ref=e16] [cursor=pointer]:
+              - /url: "#signals"
+            - link "Security" [ref=e17] [cursor=pointer]:
+              - /url: "#security"
+            - link "Pricing" [ref=e18] [cursor=pointer]:
+              - /url: "#pricing"
+          - link "Request demo" [ref=e19] [cursor=pointer]:
+            - /url: "#demo"
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e22]:
+              - img [ref=e23]
+              - text: Autonomous AI operations for ambitious teams
+            - heading "Nexora AI intelligence that moves with you." [level=1] [ref=e25]:
+              - text: Nexora AI
+              - generic [ref=e26]: intelligence that moves with you.
+            - paragraph [ref=e27]: Turn scattered tools, data, and decisions into one adaptive AI command layer that plans, learns, and executes across your company.
+            - generic [ref=e28]:
+              - link "Launch the workspace" [ref=e29] [cursor=pointer]:
+                - /url: "#demo"
+                - text: Launch the workspace
+                - img
+              - link "Watch overview" [ref=e30] [cursor=pointer]:
+                - /url: "#watch"
+                - img
+                - text: Watch overview
+            - generic [ref=e31]:
+              - generic [ref=e32]:
+                - generic [ref=e33]: 98%
+                - generic [ref=e34]: workflow prediction
+              - generic [ref=e35]:
+                - generic [ref=e36]: 12k+
+                - generic [ref=e37]: tasks orchestrated
+              - generic [ref=e38]:
+                - generic [ref=e39]: 24/7
+                - generic [ref=e40]: model monitoring
+          - generic [ref=e41]:
+            - generic [ref=e44]:
+              - generic [ref=e50]: nexora.ai/live
+              - generic [ref=e51]:
+                - complementary [ref=e52]:
+                  - generic [ref=e53]:
+                    - img [ref=e54]
+                    - generic [ref=e62]:
+                      - paragraph [ref=e63]: Strategy model
+                      - paragraph [ref=e64]: Learning
+                  - generic [ref=e65]:
+                    - img [ref=e66]
+                    - generic [ref=e70]:
+                      - paragraph [ref=e71]: Workflow mesh
+                      - paragraph [ref=e72]: Active
+                  - generic [ref=e73]:
+                    - img [ref=e74]
+                    - generic [ref=e77]:
+                      - paragraph [ref=e78]: Risk guard
+                      - paragraph [ref=e79]: Protected
+                  - generic [ref=e80]:
+                    - img [ref=e81]
+                    - generic [ref=e86]:
+                      - paragraph [ref=e87]: Market pulse
+                      - paragraph [ref=e88]: Live
+                - generic [ref=e89]:
+                  - generic [ref=e90]:
+                    - generic [ref=e91]:
+                      - paragraph [ref=e92]: Autonomous brief
+                      - paragraph [ref=e93]: Customer success expansion
+                    - generic [ref=e94]: Ready
+                  - generic [ref=e95]:
+                    - generic [ref=e97]:
+                      - generic [ref=e98]: Analyze renewal risk
+                      - img [ref=e99]
+                    - generic [ref=e105]:
+                      - generic [ref=e106]: Draft outreach sequence
+                      - img [ref=e107]
+                    - generic [ref=e113]:
+                      - generic [ref=e114]: Route approvals
+                      - img [ref=e115]
+                  - generic [ref=e120]:
+                    - paragraph [ref=e121]: Nexora recommendation
+                    - paragraph [ref=e122]: Prioritize 18 accounts with product-usage dips and assign AI-generated recovery plans by region.
+            - generic [ref=e123]: "Model confidence: 94%"
+            - generic [ref=e124]: 42 actions queued
+      - generic [ref=e126]:
+        - paragraph [ref=e127]: Built for teams replacing scattered AI experiments with one operating system
+        - generic [ref=e128]:
+          - generic [ref=e129]: Salesforce
+          - generic [ref=e130]: HubSpot
+          - generic [ref=e131]: Slack
+          - generic [ref=e132]: Linear
+          - generic [ref=e133]: Notion
+          - generic [ref=e134]: Snowflake
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - paragraph [ref=e138]: Platform
+          - heading "One adaptive command layer for people, data, and AI agents." [level=2] [ref=e139]
+          - paragraph [ref=e140]: Nexora is designed for companies that need AI to understand context, follow policy, and keep work moving across every system.
+        - generic [ref=e141]:
+          - article [ref=e142]:
+            - img [ref=e144]
+            - heading "Decision memory" [level=3] [ref=e152]
+            - paragraph [ref=e153]: Nexora learns team goals, exceptions, and preferred tradeoffs from every approved action.
+          - article [ref=e154]:
+            - img [ref=e156]
+            - heading "Workflow mesh" [level=3] [ref=e160]
+            - paragraph [ref=e161]: Connect CRM, docs, tickets, finance, and analytics into one governed execution layer.
+          - article [ref=e162]:
+            - img [ref=e164]
+            - heading "Live signal radar" [level=3] [ref=e171]
+            - paragraph [ref=e172]: Spot market shifts, account risk, and operational bottlenecks before they become urgent.
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - paragraph [ref=e176]: Agent workflow
+          - heading "From signal to shipped work without losing human control." [level=2] [ref=e177]
+          - paragraph [ref=e178]: Nexora turns intelligence into accountable execution by separating observation, reasoning, coordination, and improvement.
+          - link "See the workflow" [ref=e180] [cursor=pointer]:
+            - /url: "#demo"
+            - text: See the workflow
+            - img
+        - generic [ref=e181]:
+          - article [ref=e182]:
+            - paragraph [ref=e183]: "01"
+            - heading "Observe" [level=3] [ref=e184]
+            - paragraph [ref=e185]: Nexora maps tools, teams, goals, and risk signals in real time.
+          - article [ref=e186]:
+            - paragraph [ref=e187]: "02"
+            - heading "Reason" [level=3] [ref=e188]
+            - paragraph [ref=e189]: Models compare outcomes, constraints, and company policy before acting.
+          - article [ref=e190]:
+            - paragraph [ref=e191]: "03"
+            - heading "Coordinate" [level=3] [ref=e192]
+            - paragraph [ref=e193]: Agents assign work, draft assets, and route approvals to the right owners.
+          - article [ref=e194]:
+            - paragraph [ref=e195]: "04"
+            - heading "Improve" [level=3] [ref=e196]
+            - paragraph [ref=e197]: Every approved result tunes the next recommendation and automation.
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - paragraph [ref=e201]: Signals
+          - heading "Know what needs attention before your dashboards catch up." [level=2] [ref=e202]
+          - paragraph [ref=e203]: Nexora combines operational telemetry, customer context, and team activity into signals your AI agents can act on.
+        - generic [ref=e204]:
+          - article [ref=e205]:
+            - img [ref=e206]
+            - heading "Revenue movement" [level=3] [ref=e209]
+            - paragraph [ref=e210]: Forecast expansion, churn pressure, pipeline gaps, and next-best actions.
+          - article [ref=e211]:
+            - img [ref=e212]
+            - heading "Team load" [level=3] [ref=e217]
+            - paragraph [ref=e218]: Balance work across humans and agents with confidence, priority, and SLA context.
+          - article [ref=e219]:
+            - img [ref=e220]
+            - heading "Knowledge drift" [level=3] [ref=e224]
+            - paragraph [ref=e225]: Detect stale docs, missing context, and decisions that need a fresh source of truth.
+          - article [ref=e226]:
+            - img [ref=e227]
+            - heading "Execution health" [level=3] [ref=e230]
+            - paragraph [ref=e231]: Track throughput, delays, handoffs, and automation impact across every workflow.
+      - generic [ref=e233]:
+        - generic [ref=e235]:
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - img [ref=e239]
+              - generic [ref=e242]:
+                - paragraph [ref=e243]: Nexora agents
+                - paragraph [ref=e244]: 16 active workflows
+            - generic [ref=e245]: Healthy
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - img [ref=e248]
+              - paragraph [ref=e251]: $12.4k
+              - paragraph [ref=e252]: Model cost
+            - generic [ref=e253]:
+              - img [ref=e254]
+              - paragraph [ref=e259]: 1,842
+              - paragraph [ref=e260]: Handoffs
+            - generic [ref=e261]:
+              - img [ref=e262]
+              - paragraph [ref=e265]: 3,980
+              - paragraph [ref=e266]: Hours saved
+          - generic [ref=e268]:
+            - generic [ref=e269]: Automation impact
+            - generic [ref=e270]: 72%
+        - generic [ref=e273]:
+          - generic [ref=e274]:
+            - paragraph [ref=e275]: Operations
+            - heading "A calmer control room for high-velocity teams." [level=2] [ref=e276]
+            - paragraph [ref=e277]: Leaders can see agent cost, impact, confidence, approval queues, and operational outcomes without hopping across disconnected dashboards.
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - img [ref=e280]
+              - generic [ref=e283]: Real-time agent observability
+            - generic [ref=e284]:
+              - img [ref=e285]
+              - generic [ref=e288]: Approval queues by policy and risk
+            - generic [ref=e289]:
+              - img [ref=e290]
+              - generic [ref=e293]: Outcome tracking for every AI-assisted action
+      - generic [ref=e295]:
+        - generic [ref=e296]:
+          - paragraph [ref=e297]: Security
+          - heading "Enterprise guardrails built into the way work moves." [level=2] [ref=e298]
+          - paragraph [ref=e299]: Nexora keeps AI useful by making permissions, policies, and auditability part of every recommendation and action.
+        - generic [ref=e300]:
+          - article [ref=e301]:
+            - img [ref=e303]
+            - heading "Permission-aware AI" [level=3] [ref=e306]
+            - paragraph [ref=e307]: Agents only see and act on the data each user or workflow is allowed to access.
+          - article [ref=e308]:
+            - img [ref=e310]
+            - heading "Human approval gates" [level=3] [ref=e313]
+            - paragraph [ref=e314]: Sensitive actions can require review, policy checks, and audit-ready reasoning.
+          - article [ref=e315]:
+            - img [ref=e317]
+            - heading "Model governance" [level=3] [ref=e328]
+            - paragraph [ref=e329]: Monitor prompts, outputs, drift, and agent performance from one control plane.
+      - generic [ref=e331]:
+        - generic [ref=e332]:
+          - paragraph [ref=e333]: Pricing
+          - heading "Start with one team, then expand into a company-wide AI layer." [level=2] [ref=e334]
+          - paragraph [ref=e335]: Nexora pricing scales by active workflows, connected systems, and governance needs. Every plan includes onboarding and a measurable impact review.
+        - generic [ref=e336]:
+          - article [ref=e337]:
+            - heading "Team" [level=3] [ref=e338]
+            - generic [ref=e339]:
+              - generic [ref=e340]: $49
+              - generic [ref=e341]: per user/month
+            - paragraph [ref=e342]: For departments proving AI operations.
+            - generic [ref=e343]:
+              - generic [ref=e344]:
+                - img [ref=e345]
+                - generic [ref=e348]: Workflow automation
+              - generic [ref=e349]:
+                - img [ref=e350]
+                - generic [ref=e353]: Agent monitoring
+              - generic [ref=e354]:
+                - img [ref=e355]
+                - generic [ref=e358]: Approval policies
+          - article [ref=e359]:
+            - heading "Enterprise" [level=3] [ref=e360]
+            - generic [ref=e361]:
+              - generic [ref=e362]: Custom
+              - generic [ref=e363]: annual platform
+            - paragraph [ref=e364]: For governed AI across the company.
+            - generic [ref=e365]:
+              - generic [ref=e366]:
+                - img [ref=e367]
+                - generic [ref=e370]: Workflow automation
+              - generic [ref=e371]:
+                - img [ref=e372]
+                - generic [ref=e375]: Agent monitoring
+              - generic [ref=e376]:
+                - img [ref=e377]
+                - generic [ref=e380]: Approval policies
+      - generic [ref=e383]:
+        - img [ref=e385]
+        - heading "Bring Nexora AI into your next operating rhythm." [level=2] [ref=e388]
+        - paragraph [ref=e389]: Connect a team, choose one high-value workflow, and see how an AI command layer changes planning, execution, and follow-through.
+        - generic [ref=e390]:
+          - link "Book a demo" [ref=e391] [cursor=pointer]:
+            - /url: mailto:hello@nexora.ai
+            - img
+            - text: Book a demo
+          - link "Explore platform" [ref=e392] [cursor=pointer]:
+            - /url: "#platform"
+    - contentinfo [ref=e393]:
+      - generic [ref=e394]:
+        - link "Nexora AI" [ref=e395] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e397]
+          - generic [ref=e400]: Nexora AI
+        - generic [ref=e401]:
+          - link "Platform" [ref=e402] [cursor=pointer]:
+            - /url: "#platform"
+          - link "Signals" [ref=e403] [cursor=pointer]:
+            - /url: "#signals"
+          - link "Security" [ref=e404] [cursor=pointer]:
+            - /url: "#security"
+          - link "Demo" [ref=e405] [cursor=pointer]:
+            - /url: "#demo"
+  - button "Open Next.js Dev Tools" [ref=e411] [cursor=pointer]:
+    - img [ref=e412]

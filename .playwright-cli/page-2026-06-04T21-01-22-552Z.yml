@@ -1,0 +1,82 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - navigation [ref=e7]:
+        - link "Nexora AI" [ref=e8] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e10]
+          - generic [ref=e13]: Nexora AI
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - img [ref=e17]
+            - text: Autonomous AI operations for ambitious teams
+          - heading "Nexora AI intelligence that moves with you." [level=1] [ref=e19]:
+            - text: Nexora AI
+            - generic [ref=e20]: intelligence that moves with you.
+          - paragraph [ref=e21]: Turn scattered tools, data, and decisions into one adaptive AI command layer that plans, learns, and executes across your company.
+          - generic [ref=e22]:
+            - link "Launch the workspace" [ref=e23] [cursor=pointer]:
+              - /url: "#demo"
+              - text: Launch the workspace
+              - img
+            - link "Watch overview" [ref=e24] [cursor=pointer]:
+              - /url: "#watch"
+              - img
+              - text: Watch overview
+        - generic [ref=e28]:
+          - generic [ref=e34]: nexora.ai/live
+          - generic [ref=e35]:
+            - complementary [ref=e36]:
+              - generic [ref=e37]:
+                - img [ref=e38]
+                - generic [ref=e46]:
+                  - paragraph [ref=e47]: Strategy model
+                  - paragraph [ref=e48]: Learning
+              - generic [ref=e49]:
+                - img [ref=e50]
+                - generic [ref=e54]:
+                  - paragraph [ref=e55]: Workflow mesh
+                  - paragraph [ref=e56]: Active
+              - generic [ref=e57]:
+                - img [ref=e58]
+                - generic [ref=e61]:
+                  - paragraph [ref=e62]: Risk guard
+                  - paragraph [ref=e63]: Protected
+              - generic [ref=e64]:
+                - img [ref=e65]
+                - generic [ref=e70]:
+                  - paragraph [ref=e71]: Market pulse
+                  - paragraph [ref=e72]: Live
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - generic [ref=e75]:
+                  - paragraph [ref=e76]: Autonomous brief
+                  - paragraph [ref=e77]: Customer success expansion
+                - generic [ref=e78]: Ready
+              - generic [ref=e79]:
+                - generic [ref=e81]:
+                  - generic [ref=e82]: Analyze renewal risk
+                  - img [ref=e83]
+                - generic [ref=e89]:
+                  - generic [ref=e90]: Draft outreach sequence
+                  - img [ref=e91]
+                - generic [ref=e97]:
+                  - generic [ref=e98]: Route approvals
+                  - img [ref=e99]
+              - generic [ref=e104]:
+                - paragraph [ref=e105]: Nexora recommendation
+                - paragraph [ref=e106]: Prioritize 18 accounts with product-usage dips and assign AI-generated recovery plans by region.
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - heading "Plan" [level=2] [ref=e110]
+        - paragraph [ref=e111]: Map goals into intelligent, accountable workflows.
+      - generic [ref=e112]:
+        - heading "Execute" [level=2] [ref=e113]
+        - paragraph [ref=e114]: Trigger actions across tools with human approval.
+      - generic [ref=e115]:
+        - heading "Learn" [level=2] [ref=e116]
+        - paragraph [ref=e117]: Tune decisions from outcomes, risk, and feedback.
+  - button "Open Next.js Dev Tools" [ref=e123] [cursor=pointer]:
+    - img [ref=e124]
+  - alert [ref=e127]
