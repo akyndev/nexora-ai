@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { LucideIcon } from "lucide-react";
 import {
   ArrowRight,
@@ -25,6 +26,8 @@ import {
 } from "lucide-react";
 
 import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern";
+import { Marquee } from "@/components/magicui/marquee";
+import { PricingSection } from "@/components/pricing-section";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -101,14 +104,14 @@ const securityItems: IconItem[] = [
 ];
 
 const integrations = [
-  "Salesforce",
-  "HubSpot",
-  "Slack",
-  "Linear",
-  "Notion",
-  "Snowflake",
-  "Zendesk",
-  "Google Drive",
+  { name: "Salesforce", slug: "salesforce" },
+  { name: "HubSpot", slug: "hubspot" },
+  { name: "Slack", slug: "slack" },
+  { name: "Linear", slug: "linear" },
+  { name: "Notion", slug: "notion" },
+  { name: "Snowflake", slug: "snowflake" },
+  { name: "Zendesk", slug: "zendesk" },
+  { name: "Google Drive", slug: "googledrive" },
 ];
 
 function SectionHeading({
@@ -347,17 +350,32 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-[#071318] px-5 py-8 text-white sm:px-8">
-          <div className="mx-auto flex max-w-7xl flex-col gap-4 border-y border-white/10 py-6 sm:flex-row sm:items-center sm:justify-between">
-            <p className="max-w-xl text-sm font-medium uppercase text-white/52">
+        <section className="bg-[#071318] px-5 py-10 text-white sm:px-8">
+          <div className="mx-auto max-w-7xl border-y border-white/10 py-7">
+            <p className="mb-5 text-sm font-medium uppercase text-white/52">
               Built for teams replacing scattered AI experiments with one
               operating system
             </p>
-            <div className="grid grid-cols-2 gap-x-6 gap-y-3 text-sm font-semibold text-white sm:flex sm:flex-wrap sm:justify-end">
-              {integrations.slice(0, 6).map((name) => (
-                <span key={name}>{name}</span>
+            <Marquee pauseOnHover className="[--duration:28s]">
+              {integrations.map(({ name, slug }) => (
+                <div
+                  key={name}
+                  className="mx-2 flex h-16 min-w-44 items-center justify-center gap-3 rounded-lg border border-white/10 bg-white/[.04] px-6 shadow-sm shadow-black/20"
+                >
+                  <Image
+                    src={`https://cdn.simpleicons.org/${slug}/E7FFFF`}
+                    alt={`${name} logo`}
+                    width={24}
+                    height={24}
+                    className="h-6 w-6 object-contain"
+                    unoptimized
+                  />
+                  <span className="text-sm font-semibold text-white/82">
+                    {name}
+                  </span>
+                </div>
               ))}
-            </div>
+            </Marquee>
           </div>
         </section>
 
@@ -560,56 +578,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section
-          id="pricing"
-          className="bg-[#061016] px-5 py-20 text-white sm:px-8"
-        >
-          <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[.9fr_1.1fr] lg:items-stretch">
-            <div>
-              <p className="text-sm font-semibold uppercase text-cyan-200">
-                Pricing
-              </p>
-              <h2 className="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">
-                Start with one team, then expand into a company-wide AI layer.
-              </h2>
-              <p className="mt-4 text-base leading-7 text-white/68 sm:text-lg">
-                Nexora pricing scales by active workflows, connected systems,
-                and governance needs. Every plan includes onboarding and a
-                measurable impact review.
-              </p>
-            </div>
-            <div className="grid gap-4 md:grid-cols-2">
-              {[
-                ["Team", "$49", "per user/month", "For departments proving AI operations."],
-                ["Enterprise", "Custom", "annual platform", "For governed AI across the company."],
-              ].map(([name, price, note, copy]) => (
-                <article
-                  key={name}
-                  className="rounded-lg border border-white/12 bg-white/[.04] p-6"
-                >
-                  <h3 className="text-xl font-semibold">{name}</h3>
-                  <div className="mt-5 flex items-end gap-2">
-                    <span className="text-4xl font-semibold">{price}</span>
-                    <span className="pb-1 text-sm text-white/54">{note}</span>
-                  </div>
-                  <p className="mt-4 text-sm leading-6 text-white/64">{copy}</p>
-                  <div className="mt-6 space-y-3 text-sm text-white/78">
-                    {[
-                      "Workflow automation",
-                      "Agent monitoring",
-                      "Approval policies",
-                    ].map((item) => (
-                      <div key={item} className="flex items-center gap-3">
-                        <CheckCircle2 className="size-4 text-cyan-200" aria-hidden="true" />
-                        <span>{item}</span>
-                      </div>
-                    ))}
-                  </div>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
+        <PricingSection />
 
         <section
           id="demo"

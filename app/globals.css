@@ -199,7 +199,26 @@
   .nexora-scanline,
   .nexora-orbit,
   .nexora-orbit-reverse,
-  .nexora-glow-trail {
+  .nexora-glow-trail,
+  .marquee-track {
     animation: none;
   }
+}
+
+
+@keyframes nexora-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-track {
+  animation: nexora-marquee var(--duration, 32s) linear infinite;
+}
+
+.marquee-reverse {
+  animation-direction: reverse;
 }
